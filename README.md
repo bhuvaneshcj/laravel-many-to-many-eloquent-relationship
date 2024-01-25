@@ -85,7 +85,7 @@ Schema::create('posts', function (Blueprint $table) {
 app/Models/Post.php
 
 ```
-protected $table = 'categories';
+protected $table = 'posts';
 
 protected $fillable = [
     'name',
